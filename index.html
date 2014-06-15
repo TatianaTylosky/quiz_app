@@ -7,32 +7,41 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="main.js"></script>
 </head>
-
+<body>
 <form>
+	<h1>WHICH CODING LANGUAGE SHOULD I LEARN?</h1>
 
-	<br>What is your experience with programming?<br><br>
+	<h2>What is your experience with programming?</h2>
 
-	<input type="radio" name="experience" value="none">I am totally new to programming!</input><br>
+	<p>
+	<input type="radio" name="experience" value="none" id="none">I am totally new to programming!</input><br>
 	<input type="radio" name="experience" value="some">I've done a bit of this and a bit of that. Familiar with some of the concepts, but I want to learn how to apply the theory that I already know!</input><br>
 	<input type="radio" name="experience" value="frontend">I feel confident with my javascript and I can build websites.</input><br>
 	<input type="radio" name="experience" value="backend">I've done backend stuff but never frontend.</input><br>
+	</p>
 
-	<br>How do you approach problem solving?<br><br>
+	<h2>How do you approach problem solving?</h2>
 
+	<p>
 	<!-- <input type-"radio" name="learning_style" value="swift">?</input><br> -->
 	<!-- <input type-"radio" name="learning_style" value="web_dev">I don't really have a particular method of problem solving yet.</input><br> -->
 	<input type="radio" name="learning_style" value="ruby">There are a lot of different ways to approach a problem. Give me freedom to do whatever I want and I can solve anything.</input><br>
 	<input type="radio" name="learning_style" value="python">There is always one right way to solve a problem, and it is important that I find out what it is.</input><br>
 	<!-- <input type-"radio" name="learning_style" value="angular">?</input><br> -->
+	</p>
 
-	<br>What is your end goal(s)?<br><br>
+	<h2>What is your end goal(s)?</h2>
 
+	<p>
 	<input type="checkbox" name="goals" value="swift"> I just want to make iphone apps. </input><br>
 	<input type="checkbox" name="goals" value="web_dev"> Let me make bad ass websites. </input><br>
 	<input type="checkbox" name="goals" value="ruby"> I want to make web apps that can do cool things. </input><br>
 	<input type="checkbox" name="goals" value="python"> I get really excited about data and statistics. I want to do stuff with databases.</input><br>
 	<input type="checkbox" name="goals" value="angular"> I want to transition from backend to frontend or visa versa </input><br>
+	</p>
+
+	<h2><input id="button" type="submit" value="Submit"></h2>
 
 </form>
-
+</body>
 </html>
